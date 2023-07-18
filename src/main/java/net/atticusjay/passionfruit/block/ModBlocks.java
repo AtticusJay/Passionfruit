@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block TERMINAL = registerBlock("terminal",
-            new Block(FabricBlockSettings.copyOf(Blocks.BEACON)));
+            new Block(FabricBlockSettings.copyOf(Blocks.BEACON).nonOpaque()));
 
 
 
