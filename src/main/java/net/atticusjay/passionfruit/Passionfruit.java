@@ -5,6 +5,7 @@ import net.atticusjay.passionfruit.item.ModItemGroups;
 import net.atticusjay.passionfruit.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
