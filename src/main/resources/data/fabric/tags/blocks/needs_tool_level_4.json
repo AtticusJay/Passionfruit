@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "passionfruit:enderite_ore"
+    "passionfruit:enderite_ore",
+    "passionfruit:enderite_block"
   ]
 }

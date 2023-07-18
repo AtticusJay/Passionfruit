@@ -21,6 +21,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.TERMINAL);
                         entries.add(ModBlocks.ENDERITE_ORE);
+                        entries.add(ModBlocks.ENDERITE_BLOCK);
 
 
                     }).build());

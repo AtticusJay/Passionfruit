@@ -20,6 +20,9 @@ public class ModBlocks {
     public static final Block ENDERITE_ORE = registerBlock("enderite_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
 
 
     private static Block registerBlock(String name, Block block) {
