@@ -10,11 +10,12 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup ENDER_STAR_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(Passionfruit.MOD_ID, "ruby"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ender_star"))
+    public static final ItemGroup PASSIONFRUIT_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(Passionfruit.MOD_ID, "passionfruit"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.passionfruit"))
                     .icon(() -> new ItemStack(ModItems.ENDER_STAR)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ENDER_STAR);
+                        entries.add(ModItems.WITHER_BREATH);
 
 
                     }).build());

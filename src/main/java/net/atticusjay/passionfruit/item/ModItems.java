@@ -12,9 +12,9 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item ENDER_STAR = registerItem("ender_star", new Item(new FabricItemSettings()));
+    public static final Item WITHER_BREATH = registerItem("wither_breath", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(ENDER_STAR);
     }
 
     private static Item registerItem(String name, Item item) {
