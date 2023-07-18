@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "passionfruit",
+	"version": "${version}",
+	"name": "Passionfruit",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"AtticusJay"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT License",
+	"icon": "assets/passionfruit/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.atticusjay.passionfruit.Passionfruit"
+		],
+		"client": [
+			"net.atticusjay.passionfruit.PassionfruitClient"
+		],
+		"fabric-datagen": [
+			"net.atticusjay.passionfruit.ExampleModDataGenerator"
+		]
+	},
+	"mixins": [
+		"passionfruit.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
