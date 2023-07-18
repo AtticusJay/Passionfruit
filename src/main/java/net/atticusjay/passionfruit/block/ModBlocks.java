@@ -10,11 +10,15 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block TERMINAL = registerBlock("terminal",
             new Block(FabricBlockSettings.copyOf(Blocks.BEACON).nonOpaque()));
+
+    public static final Block ENDERITE_ORE = registerBlock("enderite_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
 
 

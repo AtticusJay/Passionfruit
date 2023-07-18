@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WITHER_BREATH);
 
                         entries.add(ModBlocks.TERMINAL);
+                        entries.add(ModBlocks.ENDERITE_ORE);
 
 
                     }).build());
