@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item ENDER_STAR = registerItem("ender_star", new GlintedItem(new FabricItemSettings()));
     public static final Item WITHER_BREATH = registerItem("wither_breath", new Item(new FabricItemSettings()));
     public static final Item ENDERITE_DUST = registerItem("enderite_dust", new Item(new FabricItemSettings()));
+    public static final Item ENDERITE_INGOT = registerItem("enderite_ingot", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
     }
