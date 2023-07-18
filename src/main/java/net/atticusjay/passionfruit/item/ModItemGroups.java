@@ -1,6 +1,7 @@
 package net.atticusjay.passionfruit.item;
 
 import net.atticusjay.passionfruit.Passionfruit;
+import net.atticusjay.passionfruit.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,6 +17,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ENDER_STAR)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ENDER_STAR);
                         entries.add(ModItems.WITHER_BREATH);
+
+                        entries.add(ModBlocks.TERMINAL);
 
 
                     }).build());

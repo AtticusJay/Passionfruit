@@ -1,5 +1,6 @@
 package net.atticusjay.passionfruit;
 
+import net.atticusjay.passionfruit.block.ModBlocks;
 import net.atticusjay.passionfruit.item.ModItemGroups;
 import net.atticusjay.passionfruit.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,5 +17,6 @@ public class Passionfruit implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
