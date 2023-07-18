@@ -3,9 +3,9 @@ package net.atticusjay.passionfruit.item.custom;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class EnderStar extends Item {
+public class GlintedItem extends Item {
 
-    public EnderStar(Settings settings) {
+    public GlintedItem(Settings settings) {
         super(settings);
     }
 

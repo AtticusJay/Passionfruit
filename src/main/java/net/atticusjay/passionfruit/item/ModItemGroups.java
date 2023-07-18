@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ENDER_STAR)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ENDER_STAR);
                         entries.add(ModItems.WITHER_BREATH);
+                        entries.add(ModItems.ENDERITE_DUST);
 
                         entries.add(ModBlocks.TERMINAL);
                         entries.add(ModBlocks.ENDERITE_ORE);

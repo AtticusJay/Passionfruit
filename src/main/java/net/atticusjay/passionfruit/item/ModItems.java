@@ -1,7 +1,7 @@
 package net.atticusjay.passionfruit.item;
 
 import net.atticusjay.passionfruit.Passionfruit;
-import net.atticusjay.passionfruit.item.custom.EnderStar;
+import net.atticusjay.passionfruit.item.custom.GlintedItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -12,8 +12,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item ENDER_STAR = registerItem("ender_star", new EnderStar(new FabricItemSettings()));
+    public static final Item ENDER_STAR = registerItem("ender_star", new GlintedItem(new FabricItemSettings()));
     public static final Item WITHER_BREATH = registerItem("wither_breath", new Item(new FabricItemSettings()));
+    public static final Item ENDERITE_DUST = registerItem("enderite_dust", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
     }
