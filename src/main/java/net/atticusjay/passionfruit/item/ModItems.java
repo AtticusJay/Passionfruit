@@ -5,10 +5,7 @@ import net.atticusjay.passionfruit.item.custom.GlintedItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -25,6 +22,15 @@ public class ModItems {
 
     public static final Item ENDERITE_PICKAXE = registerItem("enderite_pickaxe",
             new PickaxeItem(ModToolMaterials.ENDERITE, -3, -2.8f, new FabricItemSettings()));
+
+    public static final Item ENDERITE_SHOVEL = registerItem("enderite_shovel",
+            new ShovelItem(ModToolMaterials.ENDERITE, -5, -3f, new FabricItemSettings()));
+
+    public static final Item ENDERITE_HOE = registerItem("enderite_hoe",
+            new HoeItem(ModToolMaterials.ENDERITE, -10, -3f, new FabricItemSettings()));
+
+    public static final Item ENDERITE_AXE = registerItem("enderite_axe",
+            new AxeItem(ModToolMaterials.ENDERITE, 1, -3f, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
     }

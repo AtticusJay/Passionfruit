@@ -1,6 +1,9 @@
-// 1.20.1	2023-07-18T20:29:38.7922694	Passionfruit/Model Definitions
+// 1.20.1	2023-07-18T21:00:25.3218206	Passionfruit/Model Definitions
+80a38a48db246f1183684d1a4c85fd7ced08cd57 assets\passionfruit\models\item\enderite_axe.json
+78499ec31b1e99a9623192ac189e849bbf1574e6 assets\passionfruit\models\item\enderite_hoe.json
 c3baac45ba05faeeb59f63302d6a396b65e8bfcb assets\passionfruit\models\item\enderite_ore.json
 3c54a142449b7a6c8ff5056ac16388ac8f04823e assets\passionfruit\models\item\enderite_pickaxe.json
+e4fee3c444e1ebece0b73532efab9a97791c6117 assets\passionfruit\models\item\enderite_shovel.json
 ee891f2d58beca7464cdef5c766b7607f81753d2 assets\passionfruit\models\block\enderite_block.json
 30509f84d10dd2ba35c7c3c47b8a5431eb408c26 assets\passionfruit\models\item\enderite_ingot.json
 7cf6229647519c52ebb4c02b1123f0e332995023 assets\passionfruit\blockstates\enderite_ore.json

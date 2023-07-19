@@ -9,6 +9,9 @@
   "item.passionfruit.enderite_ingot": "Enderite Ingot",
   "item.passionfruit.enderite_sword": "Enderite Sword",
   "item.passionfruit.enderite_pickaxe": "Enderite Pickaxe",
+  "item.passionfruit.enderite_shovel": "Enderite Shovel",
+  "item.passionfruit.enderite_hoe": "Enderite Hoe",
+  "item.passionfruit.enderite_axe": "Enderite Axe",
 
   "itemgroup.passionfruit": "Passionfruit"
 }

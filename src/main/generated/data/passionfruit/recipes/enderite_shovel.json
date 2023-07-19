@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "passionfruit:enderite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " I ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "passionfruit:enderite_shovel"
+  },
+  "show_notification": true
+}

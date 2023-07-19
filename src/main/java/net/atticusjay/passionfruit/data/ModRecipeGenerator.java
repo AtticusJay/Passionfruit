@@ -29,6 +29,9 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         offerSword(exporter, ModItems.ENDERITE_SWORD, ModItems.ENDERITE_INGOT, Items.STICK);
         offerPickaxe(exporter, ModItems.ENDERITE_PICKAXE, ModItems.ENDERITE_INGOT, Items.STICK);
+        offerShovel(exporter, ModItems.ENDERITE_SHOVEL, ModItems.ENDERITE_INGOT, Items.STICK);
+        offerHoe(exporter, ModItems.ENDERITE_HOE, ModItems.ENDERITE_INGOT, Items.STICK);
+        offerAxe(exporter, ModItems.ENDERITE_AXE, ModItems.ENDERITE_INGOT, Items.STICK);
     }
 
     public void offerSword(Consumer<RecipeJsonProvider> exporter, Item result, Item material, Item handle) {
@@ -52,5 +55,58 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(material),
                         FabricRecipeProvider.conditionsFromItem(material))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(result)));
+    }
+    public void offerShovel(Consumer<RecipeJsonProvider> exporter, Item result, Item material, Item handle) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, result)
+                .pattern(" I ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('I', material)
+                .input('S', handle)
+                .criterion(FabricRecipeProvider.hasItem(material),
+                        FabricRecipeProvider.conditionsFromItem(material))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(result)));
+    }
+    public void offerHoe(Consumer<RecipeJsonProvider> exporter, Item result, Item material, Item handle) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, result)
+                .pattern(" II")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('I', material)
+                .input('S', handle)
+                .criterion(FabricRecipeProvider.hasItem(material),
+                        FabricRecipeProvider.conditionsFromItem(material))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(result) + "_right"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, result)
+                .pattern("II ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('I', material)
+                .input('S', handle)
+                .criterion(FabricRecipeProvider.hasItem(material),
+                        FabricRecipeProvider.conditionsFromItem(material))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(result) + "_left"));
+    }
+    public void offerAxe(Consumer<RecipeJsonProvider> exporter, Item result, Item material, Item handle) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, result)
+                .pattern(" II")
+                .pattern(" SI")
+                .pattern(" S ")
+                .input('I', material)
+                .input('S', handle)
+                .criterion(FabricRecipeProvider.hasItem(material),
+                        FabricRecipeProvider.conditionsFromItem(material))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(result) + "_right"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, result)
+                .pattern("III")
+                .pattern("IS ")
+                .pattern(" S ")
+                .input('I', material)
+                .input('S', handle)
+                .criterion(FabricRecipeProvider.hasItem(material),
+                        FabricRecipeProvider.conditionsFromItem(material))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(result) + "_left"));
     }
 }

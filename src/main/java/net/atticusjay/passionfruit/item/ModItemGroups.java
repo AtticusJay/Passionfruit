@@ -21,6 +21,9 @@ public class ModItemGroups {
                         entries.add(ModItems.ENDERITE_INGOT);
                         entries.add(ModItems.ENDERITE_SWORD);
                         entries.add(ModItems.ENDERITE_PICKAXE);
+                        entries.add(ModItems.ENDERITE_SHOVEL);
+                        entries.add(ModItems.ENDERITE_HOE);
+                        entries.add(ModItems.ENDERITE_AXE);
 
                         entries.add(ModBlocks.TERMINAL);
                         entries.add(ModBlocks.ENDERITE_ORE);
