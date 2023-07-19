@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WITHER_BREATH);
                         entries.add(ModItems.ENDERITE_DUST);
                         entries.add(ModItems.ENDERITE_INGOT);
+                        entries.add(ModItems.ENDERITE_SWORD);
 
                         entries.add(ModBlocks.TERMINAL);
                         entries.add(ModBlocks.ENDERITE_ORE);

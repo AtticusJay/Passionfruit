@@ -27,5 +27,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ENDERITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.WITHER_BREATH, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.ENDERITE_SWORD, Models.HANDHELD);
+
     }
 }
