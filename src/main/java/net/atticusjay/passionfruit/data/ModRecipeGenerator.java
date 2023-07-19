@@ -28,12 +28,24 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 ModBlocks.ENDERITE_BLOCK);
 
         offerSword(exporter, ModItems.ENDERITE_SWORD, ModItems.ENDERITE_INGOT, Items.STICK);
+        offerPickaxe(exporter, ModItems.ENDERITE_PICKAXE, ModItems.ENDERITE_INGOT, Items.STICK);
     }
 
     public void offerSword(Consumer<RecipeJsonProvider> exporter, Item result, Item material, Item handle) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, result)
                 .pattern(" I ")
                 .pattern(" I ")
+                .pattern(" S ")
+                .input('I', material)
+                .input('S', handle)
+                .criterion(FabricRecipeProvider.hasItem(material),
+                        FabricRecipeProvider.conditionsFromItem(material))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(result)));
+    }
+    public void offerPickaxe(Consumer<RecipeJsonProvider> exporter, Item result, Item material, Item handle) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, result)
+                .pattern("III")
+                .pattern(" S ")
                 .pattern(" S ")
                 .input('I', material)
                 .input('S', handle)

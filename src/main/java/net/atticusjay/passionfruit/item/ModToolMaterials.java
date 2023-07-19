@@ -12,8 +12,7 @@ public class ModToolMaterials implements ToolMaterial {
         }
 
         @Override
-        public float getMiningSpeedMultiplier() {
-            return 30;
+        public float getMiningSpeedMultiplier() {return 39;
         }
 
         @Override

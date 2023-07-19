@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ENDERITE_DUST);
                         entries.add(ModItems.ENDERITE_INGOT);
                         entries.add(ModItems.ENDERITE_SWORD);
+                        entries.add(ModItems.ENDERITE_PICKAXE);
 
                         entries.add(ModBlocks.TERMINAL);
                         entries.add(ModBlocks.ENDERITE_ORE);
