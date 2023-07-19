@@ -29,6 +29,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ENDERITE_ORE);
                         entries.add(ModBlocks.ENDERITE_BLOCK);
 
+                        entries.add(ModBlocks.LAVENDER_LOG);
+                        entries.add(ModBlocks.STRIPPED_LAVENDER_LOG);
+                        entries.add(ModBlocks.LAVENDER_WOOD);
+                        entries.add(ModBlocks.STRIPPED_LAVENDER_WOOD);
+                        entries.add(ModBlocks.LAVENDER_PLANKS);
+                        entries.add(ModBlocks.LAVENDER_LEAVES);
+                        entries.add(ModBlocks.LAVENDER_SAPLING);
+
 
                     }).build());
 

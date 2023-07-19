@@ -9,6 +9,7 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 import java.util.List;
@@ -26,6 +27,11 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ENDERITE_INGOT, RecipeCategory.MISC,
                 ModBlocks.ENDERITE_BLOCK);
+
+        offerShapelessRecipe(exporter, ModBlocks.LAVENDER_PLANKS, ModBlocks.LAVENDER_LOG, "lavender", 4);
+        offerShapelessRecipe(exporter, ModBlocks.LAVENDER_PLANKS, ModBlocks.LAVENDER_WOOD, "lavender", 4);
+        offerShapelessRecipe(exporter, ModBlocks.LAVENDER_PLANKS, ModBlocks.STRIPPED_LAVENDER_LOG, "lavender", 4);
+        offerShapelessRecipe(exporter, ModBlocks.LAVENDER_PLANKS, ModBlocks.STRIPPED_LAVENDER_WOOD, "lavender", 4);
 
         offerSword(exporter, ModItems.ENDERITE_SWORD, ModItems.ENDERITE_INGOT, Items.STICK);
         offerPickaxe(exporter, ModItems.ENDERITE_PICKAXE, ModItems.ENDERITE_INGOT, Items.STICK);

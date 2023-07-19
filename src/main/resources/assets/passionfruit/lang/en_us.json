@@ -2,6 +2,13 @@
   "block.passionfruit.terminal": "Terminal",
   "block.passionfruit.enderite_ore": "Enderite Ore",
   "block.passionfruit.enderite_block": "Enderite Block",
+  "block.passionfruit.lavender_log": "Lavender Log",
+  "block.passionfruit.stripped_lavender_log": "Stripped Lavender Log",
+  "block.passionfruit.lavender_wood": "Lavender Wood",
+  "block.passionfruit.stripped_lavender_wood": "Stripped Lavender Wood",
+  "block.passionfruit.lavender_planks": "Lavender Planks",
+  "block.passionfruit.lavender_leaves": "Lavender Leaves",
+  "block.passionfruit.lavender_sapling": "Lavender Sapling",
 
   "item.passionfruit.ender_star": "Ender Star",
   "item.passionfruit.wither_breath": "Wither's Breath",

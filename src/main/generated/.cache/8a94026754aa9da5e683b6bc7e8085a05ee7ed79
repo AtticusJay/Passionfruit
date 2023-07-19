@@ -1,4 +1,10 @@
-// 1.20.1	2023-07-18T21:00:25.3208249	Passionfruit/Block Loot Tables
+// 1.20.1	2023-07-19T01:48:58.5660734	Passionfruit/Block Loot Tables
+bc0fbd46eaa8fea175ae68898f871dffa52ab433 data\passionfruit\loot_tables\blocks\lavender_planks.json
+9b01af4b46565c2072a339f4ceabc7776f2c092b data\passionfruit\loot_tables\blocks\lavender_wood.json
+079c931dcfe371220c5689b74873dc86d9467a33 data\passionfruit\loot_tables\blocks\lavender_log.json
 f2af8403c0e3fcc8c4ab6e87027ead0196b0c687 data\passionfruit\loot_tables\blocks\enderite_block.json
-f1279ad7f66469b168dd120235e92d17441cf70f data\passionfruit\loot_tables\blocks\terminal.json
+48a6feac01ee45aaa9d0c8f4e1e24292e8fa9db3 data\passionfruit\loot_tables\blocks\lavender_sapling.json
+8be5d417f4ab51e13f54a71748d63b748724455e data\passionfruit\loot_tables\blocks\terminal.json
+6339b0293104debf368e92aa68b1010d7447d20d data\passionfruit\loot_tables\blocks\stripped_lavender_log.json
 9162ce58aeb355a88471eb04216e4f3c5d8f72ae data\passionfruit\loot_tables\blocks\enderite_ore.json
+e738609c13239074defa96eb2c87322addc2eb56 data\passionfruit\loot_tables\blocks\stripped_lavender_wood.json

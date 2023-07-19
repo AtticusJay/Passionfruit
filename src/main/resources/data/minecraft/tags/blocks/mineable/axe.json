@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-
+    "passionfruit:lavender_log",
+    "passionfruit:stripped_lavender_log",
+    "passionfruit:lavender_wood",
+    "passionfruit:stripped_lavender_wood",
+    "passionfruit:lavender_planks"
   ]
 }

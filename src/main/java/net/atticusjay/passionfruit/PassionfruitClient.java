@@ -10,5 +10,6 @@ public class PassionfruitClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TERMINAL, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LAVENDER_SAPLING, RenderLayer.getCutout());
     }
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "lavender",
+  "ingredients": [
+    {
+      "item": "passionfruit:lavender_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "passionfruit:lavender_planks"
+  }
+}

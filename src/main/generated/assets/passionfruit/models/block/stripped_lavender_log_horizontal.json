@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "passionfruit:block/stripped_lavender_log_top",
+    "side": "passionfruit:block/stripped_lavender_log"
+  }
+}
