@@ -22,7 +22,7 @@
 			"net.atticusjay.passionfruit.PassionfruitClient"
 		],
 		"fabric-datagen": [
-			"net.atticusjay.passionfruit.ExampleModDataGenerator"
+			"net.atticusjay.passionfruit.PassionfruitDataGenerator"
 		]
 	},
 	"mixins": [

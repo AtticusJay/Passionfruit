@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "building",
   "ingredients": [
     {
       "item": "passionfruit:enderite_block"
     }
   ],
   "result": {
-    "item": "passionfruit:enderite_ingot",
-    "count": 9
+    "count": 9,
+    "item": "passionfruit:enderite_ingot"
   }
 }
