@@ -14,5 +14,5 @@ public class ModEntities {
     public static final EntityType<EnderKingEntity> ENDER_KING = Registry.register(
             Registries.ENTITY_TYPE, new Identifier(Passionfruit.MOD_ID, "ender_king"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, EnderKingEntity::new)
-                    .dimensions(EntityDimensions.fixed(1.5f, 6f)).build());
+                    .dimensions(EntityDimensions.fixed(1.5f, 7f)).build());
 }

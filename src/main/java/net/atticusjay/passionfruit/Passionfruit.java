@@ -12,6 +12,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import software.bernie.geckolib.GeckoLib;
 
 public class Passionfruit implements ModInitializer {
 	public static final String MOD_ID = "passionfruit";
@@ -19,6 +20,7 @@ public class Passionfruit implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		GeckoLib.initialize();
 
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
