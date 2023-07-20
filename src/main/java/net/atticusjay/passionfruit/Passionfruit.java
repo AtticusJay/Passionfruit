@@ -2,11 +2,14 @@ package net.atticusjay.passionfruit;
 
 import net.atticusjay.passionfruit.block.ModBlocks;
 import net.atticusjay.passionfruit.block.registries.ModStrippableBlockRegistry;
+import net.atticusjay.passionfruit.entity.ModEntities;
+import net.atticusjay.passionfruit.entity.custom.EnderKingEntity;
 import net.atticusjay.passionfruit.item.ModItemGroups;
 import net.atticusjay.passionfruit.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,5 +24,7 @@ public class Passionfruit implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModStrippableBlockRegistry.registerStrippableBlocks();
+
+		FabricDefaultAttributeRegistry.register(ModEntities.ENDER_KING, EnderKingEntity.setAttributes());
 	}
 }
